@@ -1,0 +1,14 @@
+.hero {
+  position: relative;
+}
+
+.hero-content {
+  max-width: var(--section-width);
+  padding-inline: var(--section-padding-inline);
+  padding-block: 64px;
+  margin-inline: auto;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: lighter;
+  line-height: 1.3;
+}

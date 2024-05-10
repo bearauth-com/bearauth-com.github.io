@@ -1,0 +1,13 @@
+.section {
+  max-width: var(--section-width);
+  padding-inline: var(--section-padding-inline);
+  margin-inline: auto;
+}
+
+.section-pad-block {
+  padding-block: var(--section-padding-block);
+}
+
+.section-margin-block {
+  margin-block: var(--section-margin);
+}

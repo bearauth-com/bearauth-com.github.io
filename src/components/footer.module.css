@@ -1,0 +1,14 @@
+.footer {
+  margin-block-start: var(--footer-margin);
+  border-top: 1px solid var(--color-border);
+  background: linear-gradient(0deg, var(--color-background) calc(100% - 32px), hsl(0 0 90%) 100%);
+}
+
+.footer-content {
+  max-width: var(--section-width);
+  padding-block: var(--section-padding-block);
+  padding-inline: var(--section-padding-inline);
+  margin-inline: auto;
+  font-size: var(--footer-font-size);
+  text-align: center;
+}

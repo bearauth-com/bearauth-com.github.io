@@ -1,0 +1,32 @@
+.button {
+  min-height: 2rem;
+  min-width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  background: linear-gradient(180deg, var(--color-background) 0%, var(--color-background-secondary) 100%);
+  text-decoration: none;
+  border: 1px solid var(--color-border-secondary);
+}
+
+.button-clickable:hover {
+  background: linear-gradient(0, var(--color-background) 0%, var(--color-background-secondary) 100%);
+}
+
+.button-icon {
+  min-width: calc(2rem - 2px);
+  min-height: calc(2rem - 2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-content {
+  display: block;
+  padding: calc(0.25rem - 1px) 0.5rem;
+}
+
+.button-icon + .button-content {
+  padding-inline-start: 0.25rem;
+}

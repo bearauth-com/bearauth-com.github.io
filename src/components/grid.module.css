@@ -1,0 +1,8 @@
+.grid > ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  gap: 0.5rem;
+  align-items: center;
+  padding-inline: 0.5rem;
+}

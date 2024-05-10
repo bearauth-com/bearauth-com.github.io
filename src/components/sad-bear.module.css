@@ -1,0 +1,15 @@
+.sad-bear {
+  background-color: black;
+}
+
+.sad-bear-content {
+  max-width: var(--section-width);
+  margin-inline: auto;
+  background:
+  radial-gradient(circle farthest-side, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 1) 100%),
+    url('../images/sad-bear.jpg');
+  background-size: auto, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  height: max(35vh, 200px);
+}

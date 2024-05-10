@@ -1,0 +1,16 @@
+import { Page } from '../components/page';
+import { SadBear } from "../components/sad-bear"
+import { Section } from '../components/section';
+import { Link } from 'react-router-dom';
+
+<Page header={{ title: 'page not found'}}>
+<SadBear />
+<Section blockMargin>
+<h2>Oops!</h2>
+
+We can't find the page you're looking for.
+
+Check the address bar and try again, or return to the <Link to="/">home page</Link>.
+</Section>
+</Page>
+
